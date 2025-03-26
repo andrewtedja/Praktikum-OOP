@@ -4,6 +4,12 @@
 
 class Penganan
 {
+private:
+    static int uang;
+    static int n_rumah;
+    int keik;
+    int panekuk;
+
 public:
     // ctor tanpa parameter
     // inisialisasi seluruh koefisien dengan nilai 0
@@ -50,12 +56,6 @@ public:
     // 0keik-0panekuk
     // 111keik-122panekuk
     void Print();
-
-private:
-    static int uang;
-    static int n_rumah;
-    int keik;
-    int panekuk;
 };
 
 #endif
