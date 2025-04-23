@@ -32,6 +32,7 @@ TicketManager::~TicketManager()
     // delete[] *tickets;
     for (int i = 0; i < VENUE_CAPACITY; i++)
     {
+        delete tickets[i];
         tickets[i] = nullptr;
     }
 }

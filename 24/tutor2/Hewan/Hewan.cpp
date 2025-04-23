@@ -13,6 +13,7 @@ int main()
     {
         array_hewan[i]->print(); // Keluaran = "[Makhluk] ini namanya [nama]\n"
     }
+
     array_hewan[1] = &c;
     array_hewan[1]->print();
     Kucing *d = new KucingAnggora("d", "1");
