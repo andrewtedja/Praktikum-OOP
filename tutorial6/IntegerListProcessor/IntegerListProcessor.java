@@ -1,4 +1,4 @@
-package tutorial6;
+package tutorial6.IntegerListProcessor;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

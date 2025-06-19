@@ -1,4 +1,4 @@
-package tutorial6;
+package tutorial6.Reflection;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -29,19 +29,19 @@ public class Reflection{
     }   
 
     public Integer sumGhost() throws Exception{
-        Class<?> ghostClass = Class.forName("Ghost");
-        Object ghostInstance = ghostClass.getDeclaredConstructor().newInstance();
+        Class<?> ghostClass = Class.forName("ghost");
         Method[] methods = ghostClass.getDeclaredMethods();
+        Object ghostInstance = ghostClass.getDeclaredConstructor().newInstance();
 
         int sum = 0;
-
         for (Method method : methods) {
             method.setAccessible(true);
             Object result = method.invoke(ghostInstance);
+
             if (result instanceof Integer) {
                 sum += (Integer) result;
             }
-        } // ignore yang return String
+        }
         return sum;
     }
 

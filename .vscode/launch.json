@@ -1,24 +1,52 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
-      "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/Users/andre/OneDrive/Documents/GitHub/Praktikum-OOP",
-      "program": "c:/Users/andre/OneDrive/Documents/GitHub/Praktikum-OOP/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
-        {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ]
-    }
-  ]
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Main",
+			"request": "launch",
+			"mainClass": "Main",
+			"projectName": "Praktikum-OOP_b36cd397"
+		},
+		{
+			"type": "java",
+			"name": "Main_Dummy",
+			"request": "launch",
+			"mainClass": "Main_Dummy",
+			"projectName": "Praktikum-OOP_b36cd397"
+		},
+		{
+			"type": "java",
+			"name": "IntegerListProcessor",
+			"request": "launch",
+			"mainClass": "IntegerListProcessor",
+			"projectName": "Praktikum-OOP_b36cd397"
+		},
+		{
+			"type": "java",
+			"name": "DriverKendaraan",
+			"request": "launch",
+			"mainClass": "tugas.latihanJavaEmpatSekawan.DriverKendaraan",
+			"projectName": "Praktikum-OOP_b36cd397"
+		},
+		{
+			"name": "C/C++ Runner: Debug Session",
+			"type": "cppdbg",
+			"request": "launch",
+			"args": [],
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"cwd": "c:/Users/andre/OneDrive/Documents/GitHub/Praktikum-OOP",
+			"program": "c:/Users/andre/OneDrive/Documents/GitHub/Praktikum-OOP/build/Debug/outDebug",
+			"MIMode": "gdb",
+			"miDebuggerPath": "gdb",
+			"setupCommands": [
+				{
+					"description": "Enable pretty-printing for gdb",
+					"text": "-enable-pretty-printing",
+					"ignoreFailures": true
+				}
+			]
+		}
+	]
 }

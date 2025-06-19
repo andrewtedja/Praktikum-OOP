@@ -1,3 +1,4 @@
+package tutorial6.Thread;
 import java.util.Scanner;
 
 public class Main {
